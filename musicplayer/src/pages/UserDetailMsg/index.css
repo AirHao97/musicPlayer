@@ -1,0 +1,70 @@
+.userDetailMsg {
+    margin-left: 20px;
+}
+
+.userDetailMsg .userMsgShow {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+    text-align: left;
+}
+
+.userDetailMsg .userMsgShow img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.userDetailMsg .userMsgShow .wordMsg {
+    margin-left: 40px;
+    width: 800px;
+}
+
+.userDetailMsg .userMsgShow .wordMsg hr {
+    margin: 20px 0;
+}
+
+.userDetailMsg .userMsgShow .wordMsg ul {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.userDetailMsg .userMsgShow .wordMsg ul li:nth-child(n){
+    margin-right: 10px;
+    width: 100px;
+}
+
+.userDetailMsg .userDetailMsg .wordMsg ul li span {
+    cursor: pointer;
+}
+
+.userDetailMsg .userMsgShow .wordMsg ul .number {
+    font-size: 30px;
+}
+
+.userDetailMsg .userMsgShow .wordMsg ul li:nth-child(-n+2){
+    border-right: solid 1px gray ;
+}
+
+.userDetailMsg .nav {
+    display: flex;
+    flex-direction: row;
+    line-height: 40px;
+}
+
+.userDetailMsg .nav li {
+    margin-right: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.userDetailMsg .nav li .active {
+    font-size:  25px;
+    font-weight: 700;
+    border-bottom: 4px red solid;
+}
+

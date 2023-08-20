@@ -1,0 +1,27 @@
+.songsLists {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.songsLists .mysongsList {
+    height: 240px;
+    width: 200px;
+    margin: 0 40px 20px 40px;
+    cursor: pointer;
+}
+
+.songsLists .mysongsList img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: gray;
+    border: 0.5px gray solid;
+}
+
+.songsLists .mysongsList .songsName {
+    display: inline-block;
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}

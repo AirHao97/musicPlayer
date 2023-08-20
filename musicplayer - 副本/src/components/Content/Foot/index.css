@@ -1,0 +1,49 @@
+.foot {
+    width: 100%;
+    min-width: 1300px;
+    height: 80px;
+    background-color:rgb(85, 128, 205);
+    text-align: center;
+    line-height: 40px;
+}
+
+.foot .nowPlayPicAndMsg {
+    float: left;
+}
+
+.foot .nowPlayPicAndMsg .songsMsg {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.foot .nowPlayPicAndMsg img {
+    height: 80px;
+}
+
+.foot .contorlPart button {
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(197, 197, 197, 0.5);
+}
+
+.foot .contorlPart .progressBar {
+    display: inline-block;
+    margin: 0 10px;
+    width: 600px;
+    height: 5px;
+    background-color: aqua;
+}
+
+.foot .contorlPart2 {
+    float: right;
+    height: 80px;
+}
+
+.foot .contorlPart2 span {
+    line-height: 80px;
+    font-size: 30px;
+    margin-left: 20px;
+}

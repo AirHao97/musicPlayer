@@ -1,0 +1,61 @@
+.discuss .getDiscuss textarea {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.discuss .getDiscuss button {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.discuss .discussItem {
+    margin: 20px 0;
+    border-bottom: 2px solid rgba(128, 128, 128, .3);
+    padding: 20px 0;
+}
+
+.discuss .discussItem {
+    display: flex;
+    flex-direction: row;
+    width: 1140px;
+}
+
+.discuss .discussItem  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.discuss .discussItem .discussContentMsg {
+    display: flex;
+    flex-direction: column;
+    width: 1090px;
+}
+
+.discuss .discussItem .discussContentMsg .name {
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: rgba(42, 42, 255, 0.5);
+}
+
+.discuss .discussItem .discussContentMsg .name .discusserContent {
+    color: black;
+}
+
+.discuss .discussItem .discussContentMsg .discussLikes .iconPart {
+    float: right;
+}
+
+.discuss .pageButton {
+    text-align: center;
+}
+
+.discuss .pageButton button {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}

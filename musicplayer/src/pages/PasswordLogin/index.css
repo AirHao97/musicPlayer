@@ -1,0 +1,19 @@
+.passwordLogin input {
+    margin-bottom: 10px;
+    width: 800px;
+    height: 30px;
+    text-align: center;
+}
+
+.loginIn {
+    display: flex;
+    justify-content:space-evenly ;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.loginIn button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}

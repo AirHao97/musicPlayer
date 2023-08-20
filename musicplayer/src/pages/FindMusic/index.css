@@ -1,0 +1,29 @@
+.findMusic .titleNav {
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+}
+
+.findMusic .titleNav li {
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.findMusic .showPic img {
+    width: 150px;
+}
+
+.findMusic .recommendPlayList h2 {
+    padding-left: 30px;
+    text-align: left;
+}
+
+.findMusic .recommendPlayList li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.findMusic .recommendPlayList img {
+    width: 150px;
+}

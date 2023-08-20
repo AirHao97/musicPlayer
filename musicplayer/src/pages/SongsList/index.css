@@ -1,0 +1,118 @@
+.songsList{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 200px;
+    min-width: 1000px;
+    text-align: left;
+}
+
+.songsList .head .songsListCover {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.songsList .head .songsListMsg {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    height: 200px;
+    width: 800px;
+}
+
+.songsList .head .songsListMsg .songsListName {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    color: red;
+    border: 1px red solid;
+}
+
+.songsList .head .songsListMsg h1 {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 30px;
+} 
+
+.songsList .head .songsListMsg .authorHeadPic {
+    vertical-align: top;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.songsList .head .songsListMsg .authorName {
+    line-height: 30px;
+}
+
+.songsList .head .songsListMsg button {
+    margin-left: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 20px;
+}
+
+.songsList .head .songsListMsg .playButton{
+    margin-bottom: 3px;
+    background-color: red;
+    color: white;
+}
+
+.songsList .head .songsListMsg .songsListLabel {
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.songsList .head .songsListMsg .songsSynopsis {
+    display: -webkit-box;
+    margin-top: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.songsList .nav {
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.songsList .nav a {
+    margin-right: 10px;
+}
+
+.songsList .nav input {
+    margin-top: 5px ;
+}
+
+.songsList .nav .active {
+    font-size: 25px;
+    font-weight: 700;
+    border-bottom: 3px red solid;
+}
+
+.songsList input {
+    float: right;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.songsList .songsMsg {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+

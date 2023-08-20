@@ -1,0 +1,68 @@
+.searchSongs {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.searchSongs .nav {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.searchSongs .nav li {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.searchSongs .playAll,
+.searchSongs .loadAll {
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+.searchSongs .songsMsg {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.searchSongs .songsMsg thead {
+    background-color: rgba(190, 190, 190,0.3);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.searchSongs .songsMsg tr td {
+    height: 30px;
+}
+
+.searchSongs .songsMsg tr td:first-child {
+    width: 400px;
+}
+
+.searchSongs .songsMsg tr td:nth-child(n+2) {
+    width: 100px;
+}
+
+.searchSongs .songsMsg tr td:nth-child(2) {
+    width: 200px;
+}
+
+.searchSongs .songsMsg tr td:nth-child(3) {
+    width: 300px;
+}
+
+
+.searchSongs .songsMsg tr:nth-child(2n) {
+    background-color: rgba(189, 189, 189,.3);
+}
+
+.searchSongs .buttonList {
+    text-align: center;
+}
+
+.searchSongs .buttonList button {
+    margin: 0px 5px;
+    width: 35px;
+    height: 35px;
+}
+

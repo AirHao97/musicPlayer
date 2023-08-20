@@ -1,0 +1,41 @@
+.login {
+    height: 800px;
+    /* background-image: url(../../jingtai/pic.jpg); */
+    text-align: center;
+    padding-top: 160px;
+}
+
+.login h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.login .userMsg input {
+    margin-bottom: 10px;
+    width: 600px;
+    height: 30px;
+    text-align: center;
+}
+
+.login .loginWay {
+    margin-bottom: 20px;
+}
+
+.login .loginWay button {
+    margin-right: 10px;
+    width: 100px;
+    height: 20px;
+}
+
+.login .loginWay select {
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+}
+
+.login .loginIn button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,53 @@
+.Body {
+    width: 100%;
+    min-width: 1500px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.Body .navList {
+    display: inline-block;
+    width: 200px;
+    height: 943px;
+    overflow: auto;
+    background-color: #87ceeb;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Body .navList::-webkit-scrollbar{
+    display: none;
+}
+
+.Body .navList .bigNav {
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.Body .navList li {
+    margin-bottom: 10px;
+}
+
+.Body .navList .myMusic {
+    margin-bottom: 50px;
+}
+
+.Body .navList .iconfont{
+    font-size: 16px;
+}
+
+.Body .navList .myLoveMusic .active {
+    font-weight: 700;
+}
+
+.Body .showPart {
+    display: inline-block;
+    height: 943px;
+    overflow: auto;
+    vertical-align: top;
+    text-align: center;
+}
+
+.Body .showPart::-webkit-scrollbar{
+    display: none;
+}

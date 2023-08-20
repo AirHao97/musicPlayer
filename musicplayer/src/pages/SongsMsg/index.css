@@ -1,0 +1,41 @@
+ .songsMsg thead {
+    background-color: rgba(190, 190, 190,0.3);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+ .songsMsg tr td {
+    height: 30px;
+}
+
+ .songsMsg tr td:first-child {
+    width: 400px;
+}
+
+ .songsMsg tr td:nth-child(n+2) {
+    width: 100px;
+}
+
+ .songsMsg tr td:nth-child(2) {
+    width: 200px;
+}
+
+ .songsMsg tr td:nth-child(3) {
+    width: 300px;
+}
+
+
+ .songsMsg tr:nth-child(2n) {
+    background-color: rgba(189, 189, 189,.3);
+}
+
+ .buttonList {
+    margin-top: 50px;
+    text-align: center;
+}
+
+ .buttonList button {
+    margin: 0px 5px;
+    width: 35px;
+    height: 35px;
+}
